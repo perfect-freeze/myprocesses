@@ -1,0 +1,2 @@
+#!/bin/sh
+ps aux | grep "^$USER" | grep -v "bash" | grep -v "sshd" | grep -v "ps aux" | grep -v "$0" | grep -v grep | grep -v "screen"
